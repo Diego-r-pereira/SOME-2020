@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/playlist"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/greenLight"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tvPlay"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/my_playlist"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textSize="25sp"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/circleIVplay"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/tvPlay"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_launcher"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/circleIVpause"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/circleIVplay"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_launcher"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/circleIVStop"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/circleIVpause"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_launcher"/>
+</RelativeLayout>

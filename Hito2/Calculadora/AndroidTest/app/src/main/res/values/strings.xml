@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="saludo">Hola mundo desde ANDROID</string>
+    <string name="respuesta">Respuesta</string>
+    <string name="sumar">+</string>
+    <string name="rest">-</string>
+    <string name="multi">*</string>
+    <string name="div">/</string>
+    <string name="numero1">Ingrese Numero 1</string>
+    <string name="numero2">Ingrese Numero 2</string>
+    <string name="btClean">Clean</string>
+    <string name="btCal2">SCientific</string>
+    <string name="Titulo">Calculadora Cientifica</string>
+</resources>

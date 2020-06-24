@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Splash Screen to me</string>
+    <string name="subject">Splash Screen</string>
+    <string name="number1">number 1</string>
+    <string name="defaultNumber">0</string>
+    <string name="number2">number 2</string>
+    <string name="sum">SUMAR</string>
+    <string name="response">Respuesta: </string>
+    <string name="User">Diego Alejandro Rojas Pereira</string>
+</resources>

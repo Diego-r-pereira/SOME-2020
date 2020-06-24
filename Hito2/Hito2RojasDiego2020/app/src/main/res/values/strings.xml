@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Hito2 Rojas Diego 2020</string>
+    <string name="covid">Epidemia Corona Virus</string>
+    <string name="Nro">Nro Casos</string>
+    <string name="Cbba">COCHABAMBA</string>
+    <string name="Scz">SANTA CRUZ</string>
+    <string name="Or">ORURO</string>
+    <string name="Confirm">Casos Confirmados</string>
+    <string name="Sospe">Casos Sospechoso</string>
+    <string name="conf">Checked</string>
+    <string name="sos">Review</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="Button">SET VALUES</string>
+    <string name="Button2">CALCULAR</string>
+    <string name="search">Ingresa tu Busqueda</string>
+</resources>

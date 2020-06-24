@@ -1,0 +1,2 @@
+rootProject.name='Defensa HITO 3'
+include ':app'

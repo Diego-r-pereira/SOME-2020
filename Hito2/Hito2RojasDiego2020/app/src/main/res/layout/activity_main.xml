@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logo">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/covid" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginBottom="5dp"
+            android:text="@string/Cbba" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/Confirm" />
+
+            <EditText
+                android:id="@+id/etCbbaConf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:hint="@string/Nro"
+                android:layout_marginLeft="16dp"
+                android:background="@color/colorWhite">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/Sospe" />
+            <EditText
+                android:id="@+id/etCbbaSos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/Nro"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/colorWhite">
+            </EditText>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/Scz" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/Confirm" />
+
+            <EditText
+                android:id="@+id/etSczConf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/Nro"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="16dp"
+                android:background="@color/colorWhite">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewRespuesta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/Sospe" />
+            <EditText
+                android:id="@+id/etSczSos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/Nro"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/colorWhite">
+            </EditText>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/Or" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/Confirm" />
+
+            <EditText
+                android:id="@+id/etOrConf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/Nro"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="16dp"
+                android:background="@color/colorWhite">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/Sospe" />
+            <EditText
+                android:id="@+id/etOrSos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/Nro"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/colorWhite">
+            </EditText>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/etSetConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/conf"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorWhite">
+
+        </EditText>
+        <EditText
+            android:id="@+id/etSetSospe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/sos"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorWhite">
+
+        </EditText>
+        <EditText
+            android:id="@+id/etSetCiudad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/ciudad"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorWhite">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btSetValue"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/Button"
+            android:layout_marginLeft="20dp">
+
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/etBusqueda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/search"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:background="@color/colorWhite">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btBusqueda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Button2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>

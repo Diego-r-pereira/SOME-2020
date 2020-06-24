@@ -1,0 +1,58 @@
+<resources>
+
+    <!--nombre app-->
+    <string name="app_name">Defensa HITO 3</string>
+
+    <!--pantalla uno-->
+    <string name="title1">SOME</string>
+    <string name="desc1">Manage of events, funtions, activities and navigation betwen screens</string>
+
+
+    <!--pantalla dos-->
+    <string name="title2">DEFENSA HITO 3</string>
+    <string name="desc2">Univ: Diego Rojas Pereira</string>
+    <string name="gestion">Gestion: 2020</string>
+
+    <!--pantalla tres-->
+    <string name="basica">Basic</string>
+    <string name="cientifica">Scientific</string>
+    <string name="custom">Custom</string>
+
+    <!--    pantalla cuatro-->
+    <string name="close">Close App</string>
+    <string name="alCubo">X3</string>
+    <string name="alCuadrado">X2</string>
+    <string name="alaN">XY</string>
+    <string name="factorial">N!</string>
+    <string name="sumatoriaFibo">∑fibo</string>
+    <string name="sumatoriaN">∑n</string>
+    <string name="sumatoriaNXY">∑nxy</string>
+
+    <!--botonera-->
+    <string name="next">Next</string>
+    <string name="desc">Desc</string>
+    <string name="select">Select</string>
+    <string name="ingre">Ingresar</string>
+    <string name="skip">SKIP</string>
+
+    <!--    Edit text-->
+    <string name="selectApp">Select App</string>
+    <string name="user">Username</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    Calculator Words-->
+    <string name="equal">=</string>
+    <string name="sumar">+</string>
+    <string name="rest">-</string>
+    <string name="multi">*</string>
+    <string name="div">/</string>
+    <string name="numero0">0</string>
+    <string name="numero1">1</string>
+    <string name="numero2">2</string>
+    <string name="numero3">3</string>
+    <string name="numero4">4</string>
+    <string name="btClean">CLEAN</string>
+    <string name="shift">SHIFT</string>
+</resources>
