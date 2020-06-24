@@ -39,7 +39,7 @@ ___
 * Evaluacion Hito4
 * Recicler View
 
-![Dribbble](https://cdn.dribbble.com/users/1094383/screenshots/5321441/800_2.gif)
+![Dribbble](https://cdn.dribbble.com/users/4859/screenshots/6727007/ulesson_4x.png?compress=1&resize=800x600)
 
 ---
 ### The code
