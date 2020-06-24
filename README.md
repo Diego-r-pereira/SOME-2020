@@ -31,7 +31,7 @@ ___
 * Hito3 Tarea Final.docx
 * Hito3 Tarea Final.pdf
 
-![linkJitpack](https://cdn.dribbble.com/users/202820/screenshots/11109744/media/14d4f72f7096e05d1289763bdc4adcb9.mp4)
+![Dribbble](https://cdn.dribbble.com/users/202820/screenshots/11109744/media/14d4f72f7096e05d1289763bdc4adcb9.mp4)
 
 ---
 ## HITO 4
@@ -39,7 +39,7 @@ ___
 * Evaluacion Hito4
 * Recicler View
 
-![linkJitpack](https://cdn.dribbble.com/users/1094383/screenshots/5321441/800_2.gif)
+![Dribbble](https://cdn.dribbble.com/users/1094383/screenshots/5321441/800_2.gif)
 
 ---
 ### The code
